@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <plugins>
-  <pyqgis_plugin name="LVT4U" version="2.11.41">
+  <pyqgis_plugin name="LVT4U" version="2.11.42">
     <description>All-in-one GIS toolkit: thematic maps, lot labels, MBTiles, KML/KMZ, basemaps, font conversion, CRS tools, map layouts, Excel-to-GIS, EUDR export, and AI Tree Detection.</description>
     <about>LVT4U is a comprehensive QGIS plugin suite designed for forestry, land management, and international compliance workflows.</about>
-    <version>2.11.41</version>
+    <version>2.11.42</version>
     <qgis_minimum_version>3.16</qgis_minimum_version>
     <qgis_maximum_version>4.99</qgis_maximum_version>
     <homepage>https://github.com/locvutrunglvt/LVT4U-Update</homepage>
@@ -15,24 +15,6 @@
     <repository>https://github.com/locvutrunglvt/LVT4U-Update</repository>
     <tags>vietnam,laos,forestry,thematic,layout,atlas,kml,eudr,geojson,mbtiles,crs,vn2000,basemap,font,cadastral,land,excel,ai,tree_detection</tags>
     <category>Vector</category>
-    <experimental>False</experimental>
-  </pyqgis_plugin>
-
-  <pyqgis_plugin name="LVT_EUDR" version="1.0.3">
-    <description>Đánh giá rủi ro phá rừng chuẩn EUDR 1-Click (JRC TMF v1_2025 &amp; IPCC Tier 1)</description>
-    <about>Thẩm định rủi ro phá rừng EUDR theo Quy định (EU) 2023/1115, tích hợp viễn thám JRC TMF v1_2025, cấp quyền theo Số điện thoại và tự động nâng cấp từ xa.</about>
-    <version>1.0.3</version>
-    <qgis_minimum_version>3.22</qgis_minimum_version>
-    <qgis_maximum_version>4.99</qgis_maximum_version>
-    <homepage>https://github.com/locvutrunglvt/LVT_EUDR_Check</homepage>
-    <file_name>LVT_EUDR.zip</file_name>
-    <icon>icon.png</icon>
-    <author_name>Loc Vu Trung</author_name>
-    <download_url>https://github.com/locvutrunglvt/LVT4U-Update/releases/download/v2.11.34/LVT_EUDR.zip</download_url>
-    <tracker>https://github.com/locvutrunglvt/LVT_EUDR_Check/issues</tracker>
-    <repository>https://github.com/locvutrunglvt/LVT_EUDR_Check</repository>
-    <tags>eudr,deforestation,jrc,tmf,ipcc,ghg,laos,vietnam,slow,forest,gis,svg</tags>
-    <category>Analysis</category>
     <experimental>False</experimental>
   </pyqgis_plugin>
 </plugins>
